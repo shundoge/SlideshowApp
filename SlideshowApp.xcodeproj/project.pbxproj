@@ -12,6 +12,11 @@
 		CF47806F1C9D699C009C24E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF47806D1C9D699C009C24E7 /* Main.storyboard */; };
 		CF4780711C9D699C009C24E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF4780701C9D699C009C24E7 /* Assets.xcassets */; };
 		CF4780741C9D699C009C24E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF4780721C9D699C009C24E7 /* LaunchScreen.storyboard */; };
+		CF47807C1C9D6A96009C24E7 /* EnlargementViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF47807B1C9D6A96009C24E7 /* EnlargementViewController.swift */; };
+		CF4780821C9DDA9A009C24E7 /* 山.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CF47807E1C9DDA9A009C24E7 /* 山.jpg */; };
+		CF4780831C9DDA9A009C24E7 /* 池.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CF47807F1C9DDA9A009C24E7 /* 池.jpg */; };
+		CF4780841C9DDA9A009C24E7 /* 滝.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CF4780801C9DDA9A009C24E7 /* 滝.jpg */; };
+		CF4780851C9DDA9A009C24E7 /* 紅葉.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CF4780811C9DDA9A009C24E7 /* 紅葉.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		CF4780701C9D699C009C24E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CF4780731C9D699C009C24E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CF4780751C9D699C009C24E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF47807B1C9D6A96009C24E7 /* EnlargementViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnlargementViewController.swift; sourceTree = "<group>"; };
+		CF47807E1C9DDA9A009C24E7 /* 山.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "山.jpg"; sourceTree = "<group>"; };
+		CF47807F1C9DDA9A009C24E7 /* 池.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "池.jpg"; sourceTree = "<group>"; };
+		CF4780801C9DDA9A009C24E7 /* 滝.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "滝.jpg"; sourceTree = "<group>"; };
+		CF4780811C9DDA9A009C24E7 /* 紅葉.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "紅葉.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,11 +67,24 @@
 				CF4780691C9D699C009C24E7 /* AppDelegate.swift */,
 				CF47806B1C9D699C009C24E7 /* ViewController.swift */,
 				CF47806D1C9D699C009C24E7 /* Main.storyboard */,
+				CF47807B1C9D6A96009C24E7 /* EnlargementViewController.swift */,
 				CF4780701C9D699C009C24E7 /* Assets.xcassets */,
+				CF47807D1C9DDA9A009C24E7 /* Slides */,
 				CF4780721C9D699C009C24E7 /* LaunchScreen.storyboard */,
 				CF4780751C9D699C009C24E7 /* Info.plist */,
 			);
 			path = SlideshowApp;
+			sourceTree = "<group>";
+		};
+		CF47807D1C9DDA9A009C24E7 /* Slides */ = {
+			isa = PBXGroup;
+			children = (
+				CF47807E1C9DDA9A009C24E7 /* 山.jpg */,
+				CF47807F1C9DDA9A009C24E7 /* 池.jpg */,
+				CF4780801C9DDA9A009C24E7 /* 滝.jpg */,
+				CF4780811C9DDA9A009C24E7 /* 紅葉.jpg */,
+			);
+			path = Slides;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,9 +145,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF4780831C9DDA9A009C24E7 /* 池.jpg in Resources */,
 				CF4780741C9D699C009C24E7 /* LaunchScreen.storyboard in Resources */,
+				CF4780821C9DDA9A009C24E7 /* 山.jpg in Resources */,
 				CF4780711C9D699C009C24E7 /* Assets.xcassets in Resources */,
 				CF47806F1C9D699C009C24E7 /* Main.storyboard in Resources */,
+				CF4780851C9DDA9A009C24E7 /* 紅葉.jpg in Resources */,
+				CF4780841C9DDA9A009C24E7 /* 滝.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,6 +162,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF47807C1C9D6A96009C24E7 /* EnlargementViewController.swift in Sources */,
 				CF47806C1C9D699C009C24E7 /* ViewController.swift in Sources */,
 				CF47806A1C9D699C009C24E7 /* AppDelegate.swift in Sources */,
 			);
